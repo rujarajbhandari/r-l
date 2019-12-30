@@ -3,6 +3,19 @@
   height: 50px;
 }
 
+.logo-section{
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+.social-icon{
+  right: 0;
+  margin: 1rem;
+  position: absolute;
+  color: white;
+}
+
 .half-rule{
   width: 50%;
 }
@@ -27,10 +40,8 @@
 
 .navbar-static-top{
   position: absolute;
-  text-align: center;
   display: inline-block;
   background-color: none;
-
 }
 
 .hero h1{
@@ -59,4 +70,14 @@
 .nav-link:hover{
   background-color: white;
   color: black;
+}
+
+.card{
+  border: none;
+}
+
+.card-body{
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0;
 }
