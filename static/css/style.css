@@ -82,7 +82,19 @@
   padding: 0;
 }
 
-.see-all-button{
-  width: 100%;
-  margin: auto;
+.plate {
+    padding: 4rem 0;
+    width: 100%
+}
+
+.plate-grey-light {
+    background-color: #f3f3f4
+}
+
+.plate-grey {
+    background-color: #40464d
+}
+
+.plate-grey .button {
+    color: #40464d
 }
