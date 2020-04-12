@@ -46,7 +46,7 @@
 
 .hero h1{
   text-decoration: overline;
-  text-decoration-color: red;
+  text-decoration-color: #d13d3f;
 
   color: white;
 }
@@ -55,8 +55,16 @@
     color: white;
 }
 
+.m-top{
+  padding-top: 5% !important;
+}
+
 .navbar{
   width: 100%;
+}
+
+.nav-link{
+  color:white !important;
 }
 
 .topi{
@@ -69,17 +77,38 @@
 
 .nav-link:hover{
   background-color: white;
-  color: black;
+  color: black !important;
 }
 
 .card{
   border: none;
+  padding-bottom: 5%;
 }
 
+.card a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.card-img-top{
+  width: 350px;
+  height:350px;
+}
 .card-body{
   text-align: center;
   margin-top: 1rem;
   padding: 0;
+}
+
+.card-img{
+  width: 350px;
+  
+}
+
+.card-title{
+  height: 10px;
+  
 }
 
 .plate {
@@ -97,4 +126,59 @@
 
 .plate-grey .button {
     color: #40464d
+}
+
+
+.btn {
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #ffe0e1 !important;
+  background-color: #d13d3f !important;
+  border-color: #d13d3f !important;
+  border-radius: 0;
+}
+
+.btn:hover{
+  background-color: #ffe0e1 !important;
+  border-color: #ffe0e1 !important;
+  color: #d13d3f !important;
+}
+
+.bg-dark{
+  background-color: #d13d3f !important;
+}
+
+.post-body{
+  padding-top: 0%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.post-column{
+  float: left;
+}
+
+.post-image {
+  width: 70%;
+}
+
+.post-description {
+  width: 30%;
+  margin: 0;
+}
+
+.post-description h2 {
+  margin: 0;
+}
+
+.modal-body{
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.modal-dialog {
+    max-width: 1000px;
+    width:100%
 }
