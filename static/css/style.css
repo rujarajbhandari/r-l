@@ -78,10 +78,6 @@
   color: black !important;
 }
 
-.card{
-  border: none;
-  padding-bottom: 5%;
-}
 
 .card a {
   color: black;
@@ -180,3 +176,50 @@
     max-width: 1000px;
     width:100%
 }
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card{
+  /* padding: 10px; */
+  text-align: center;
+  /* background-color: #f1f1f1; */
+  border: none;
+  padding-bottom: 5%;
+}
+
+@media (min-width: 576px){
+  .card-deck .card {
+    flex: auto;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+}
+
+
+
