@@ -29,7 +29,7 @@
   text-align: center;
 
   /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../../static/images/Thankas/IMG_7499.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../../static/images/Thankas/HeroImage.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -227,3 +227,8 @@
   height: 0;
   overflow: hidden;
 }
+
+.half-rule{
+  width: 25%;
+}
+
